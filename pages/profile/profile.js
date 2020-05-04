@@ -1,7 +1,4 @@
 // pages/profile/profile.js
-const App = getApp()
-// getApp() 获取App()产生的实例对象
-console.log(App.globalData.name)
 Page({
 
   /**
@@ -9,10 +6,6 @@ Page({
    */
   data: {
 
-  },
-  getUserInfo (e) {
-    console.log(e)
-    // e.detail.userInfo里有用户的信息
   },
 
   /**

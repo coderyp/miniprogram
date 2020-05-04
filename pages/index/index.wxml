@@ -1,7 +1,1 @@
-<view>
-  <text>{{name}}</text>
-  <view>{{age}}</view>
-</view>
-<view wx:for="{{list}}">{{item.title}}
-  <image src="{{item.image}}" bindtap="imageClick"></image>
-</view>
+<text>pages/index/index</text>

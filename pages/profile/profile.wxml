@@ -1,4 +1,2 @@
 <!--pages/profile/profile.wxml-->
 <text>pages/profile/profile.wxml</text>
-<button bindgetuserinfo="getUserInfo" open-type="getUserInfo" size="mini">授权</button>
-<open-data type="userNickName"></open-data>
