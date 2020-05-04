@@ -1,0 +1,12 @@
+<!--pages/button/button.wxml-->
+<button size="default">按钮</button>
+<button size="mini" >按钮</button>
+<button type="primary" size="mini" >按钮</button>
+
+<button type="default" size="mini">按钮</button>
+<button type="warn" size="mini">按钮</button>
+<button disabled size="mini">禁用</button>
+
+<button size="mini" loading="true">刷新</button>
+<button size="mini" hover-class="btn-press">按钮</button>
+

@@ -1,0 +1,12 @@
+<!--pages/text/text.wxml-->
+<text selectable>hello world\n</text>
+<text space="nbsp">hello world\n</text>
+
+<text space="ensp">hello world\n</text>
+
+<text space="emsp">hello world\n</text>
+<text>ensp半个中文空格大小，emsp一个中文空格大小\n</text>
+<text decode="{{false}}">7 &gt; \n</text>
+<text>decode: 是否解码</text>
+
+<text>selectable decode 类型都为布尔值 ， 可以直接写属性名，不写值,值为true，不写属性名值为false(默认)，若要写值，要使用mustache语法</text>

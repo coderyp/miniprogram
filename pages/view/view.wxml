@@ -1,0 +1,6 @@
+<!--pages/view/view.wxml-->
+<view class="wrapper" hover-class="wrapperHandle">
+  <view class="box" hover-class="boxHandle" 
+  hover-stay-time="100"
+  hover-stop-propagation></view>
+</view>

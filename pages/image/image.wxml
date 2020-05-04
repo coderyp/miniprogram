@@ -1,0 +1,29 @@
+<!--pages/image/image.wxml-->
+<!-- image可以是单标签，也可以写成双标签、
+    image组件默认有自己的大小 320*240px
+    src: 本地路径/远程路径  
+ -->
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">image</text>
+    <text class="page__desc">图片</text>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap" wx:for="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+ <image src="/assets/test/2.jpg"></image>
+ <image src="../../assets/test/3.jpg"/>
+ <image bindload="imgLoad" 
+   show-menu-by-longpress
+    lazy-load
+ src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+
+ <button bindtap="chooseAlbum">选中图片</button>
+ <image wx:for="{{imgUrl}}" src="{{item}}" mode="widthFix" />

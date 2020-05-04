@@ -1,0 +1,19 @@
+/* pages/view/view.wxss */
+.wrapper {
+  width: 200px;
+  height: 200px;
+  background-color: #099;
+}
+
+.wrapperHandle {
+  background-color: #0ff;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #faa;
+}
+.boxHandle {
+  background-color: #f00;
+}

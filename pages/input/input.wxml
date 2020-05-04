@@ -1,0 +1,20 @@
+<!--pages/input/input.wxml-->
+<input></input>
+<input value="请输入"/>
+<input placeholder="请输入" />
+<text>属性\n</text>
+<input password focus/>
+<input disabled />
+<text>事件监听</text>
+<input bindinput="inputHandle" bindfocus="focusHandle" bindblur="blurHandle" bindconfirm="confirmHandle" />
+<text>键盘type类型</text>
+<input type="digit" placeholder="digit"></input>
+<input type="text" placeholder="text"></input>
+<input type="number" placeholder="number"></input>
+<input type="idcard" placeholder="idcard"></input>
+<view>设置键盘右下角按钮的文字</view>
+<input confirm-type="send"  type="text" />
+<input confirm-type="search"  type="text" />
+<input confirm-type="next"  type="text" />
+<input confirm-type="go"  type="text" />
+<input confirm-type="down"  type="text" />

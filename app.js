@@ -7,7 +7,7 @@ App({
     // 和onshow一样有options参数，里面内容是一样的，可以用来判断进入场景
     // console.log(options.scene)
     // console.log(options)
-    // console.log('小程序初始化完成')
+    console.log('小程序初始化完成')
     wx.getUserInfo({
       success(res) {
         // console.log(res)
@@ -21,7 +21,7 @@ App({
   onShow: function (options) {
     // 1.判断小程序的进入场景
     // console.log(options)
-    // console.log('小程序启动')
+    console.log('小程序启动')
   },
 
   /**
