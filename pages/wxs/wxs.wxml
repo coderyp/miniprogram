@@ -1,0 +1,10 @@
+<!--pages/wxs/wxs.wxml-->
+<wxs module="info" src="../../wxs/info.wxs" />
+<wxs module="format" src="../../wxs/format.wxs" />
+
+<view>{{info.name}}</view>
+<view>{{info.age}}</view>
+<view>{{info.sum(3, 26)}}</view>
+
+<view>{{format.priceFormat(99.65888, 3)}}</view>
+<view>{{datestamp}}</view>

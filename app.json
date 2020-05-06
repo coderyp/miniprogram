@@ -1,8 +1,13 @@
 {
   "pages":[
-    "pages/image/image",
-    "pages/input/input",
+    "pages/wxs/wxs",
+    "pages/wxml/wxml",
+    "wxml/template",
     
+    "pages/wxss/wxss",
+    "pages/scrollview/scrollview",
+    "pages/input/input",    
+    "pages/image/image",    
     "pages/view/view",
     "pages/button/button",
     "pages/text/text",

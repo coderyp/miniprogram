@@ -1,1 +1,3 @@
-<text>pages/index/index</text>
+<include src="/wxml/header.wxml" />
+
+<include src="/wxml/footer.wxml" />

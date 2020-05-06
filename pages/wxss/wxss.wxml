@@ -1,0 +1,4 @@
+<!--pages/wxss/wxss.wxml-->
+<view class="text1">哈哈哈哈</view>
+<view class="text2">哈哈哈哈</view>
+<view class="text3">rpx ： responsive pixel,可以根据屏幕宽度自适应</view>

@@ -1,0 +1,5 @@
+<template name="second">
+  <view wx:for="{{5}}">
+    {{item}}
+  </view>
+  </template>

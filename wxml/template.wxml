@@ -1,0 +1,6 @@
+<import src="./second-temp.wxml" />
+<template name="abc">
+  <button size="mini">{{btnText}}</button>
+  <view>{{content}}</view>
+</template>
+<template is="second"/>

@@ -1,0 +1,17 @@
+<!--pages/wxml/wxml.wxml-->
+<import src="/wxml/template.wxml" />
+<template is="abc" data="{{btnText: '提交',content: '内容'}}" />
+<include src="/wxml/header.wxml" />
+<view wx:if="{{score >= 90 && score <= 100}}">优秀</view>
+<view wx:elif="{{score >= 80 && score < 90}}">良好</view>
+<view wx:elif="{{score >= 60 && score < 80}}">及格</view>
+<view wx:elif="{{score >= 0 && score < 60}}">不及格</view>
+<view wx:else>分数不合法</view>
+<button bindtap="scoreIncrement" size="mini" style="margin-right:20px;">+</button>
+
+<button bindtap="scoreDecrement" size="mini">-</button>
+<view>------template-------</view>
+
+<template is="abc" data="{{btnText: '警告',content: '呵呵呵呵'}}" />
+<view>-----include------</view>
+<include src="/wxml/footer.wxml" />

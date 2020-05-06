@@ -58,8 +58,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/text/text",
-					"pathName": "pages/text/text",
+					"name": "template",
+					"pathName": "wxml/template",
 					"query": "",
 					"scene": null
 				}

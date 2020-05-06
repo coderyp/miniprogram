@@ -1,0 +1,18 @@
+<!--pages/scrollview/scrollview.wxml-->
+<scroll-view class="scroll-container" scroll-x>
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+
+<scroll-view scroll-y 
+  enable-back-to-top
+  scroll-top="{{80}}"
+  scroll-into-view="No11"	
+  upper-threshold="{{10}}"
+  lower-threshold="{{10}}"
+  bindscrolltolower="tolowerHandle"
+  bindscrolltoupper="toupperHandle"	bindscroll="scrollHandle" class="scroll-container2">
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+  <view id="No11">10</view>
+</scroll-view>
+<input password style="border: 1px solid #333;" hidden="{{flag}}"></input>
+<button size="mini" bindtap="HandleBtn">change</button>

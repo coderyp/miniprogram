@@ -8,3 +8,11 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.text1 {
+  font-size: 20px;
+}
+
+.text2 {
+  font-size: 40rpx;
+}
